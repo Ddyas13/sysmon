@@ -1,0 +1,24 @@
+/* @@HEADER-START@@
+/*    ___    ___ ________  ________   ________  ___  ________  _______      
+/*   |\  \  /  /|\   __  \|\   ____\ |\   ____\|\  \|\   __  \|\  ___ \     
+/*   \ \  \/  / | \  \|\  \ \  \___|_\ \  \___|\ \  \ \  \|\  \ \   __/|    
+/*    \ \    / / \ \   __  \ \_____  \\ \_____  \ \  \ \   _  _\ \  \_|/__  
+/*     \/  /  /   \ \  \ \  \|____|\  \\|____|\  \ \  \ \  \\  \\ \  \_|\ \ 
+/*   __/  / /      \ \__\ \__\____\_\  \ ____\_\  \ \__\ \__\\ _\\ \_______\
+/*  |\___/ /        \|__|\|__|\_________\\_________\|__|\|__|\|__|\|_______|
+/*  \|___|/                  \|_________\|_________|
+/*
+/*   Auteur  : Yassire Daniel Allaoui
+/*   Login   : yassire.exe
+/*   Email   : ydanielallaoui@gmail.com
+/*
+/*   Created : 2026/09/24 01:24:23
+/*   Updated : 2026/09/24 01:24:23
+/* @@HEADER-END@@ */
+
+#include <unistd.h> // pour les fonctions write, read, close, usleep, fork...
+#include <fcntl.h> // pour open, O_RDONLY
+#include <stdlib.h> // malloc, free, exit
+#include <signal.h> // signal, SIGNIT
+
+
