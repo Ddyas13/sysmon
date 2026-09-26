@@ -30,3 +30,8 @@ void	ft_putnbr_int(int n);
 //ft_atoi.c
 int	ft_atoi(char *s);
 long	ft_atol(char *s);
+
+//cpu.c
+void	read_cpu(t_cpu *cpu);
+int	cpu_usage(t_cpu *prev, t_cpu *curr);
+
