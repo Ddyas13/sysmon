@@ -35,3 +35,9 @@ long	ft_atol(char *s);
 void	read_cpu(t_cpu *cpu);
 int	cpu_usage(t_cpu *prev, t_cpu *curr);
 
+//mem.c
+void	read_mem(t_mem *mem);
+
+//proc.c
+int	count_procs(void);
+void	read_top_procs(t_proc *procs, int max);
